@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- `IsPublic` excludes CGNAT, TEST-NET, documentation, multicast, reserved, and related special-purpose ranges via `net/netip`.
+
+### Added
+- Context-aware `LookupISP` with typed errors; `GetISP` remains as a legacy wrapper.
+
+
 ## [0.1.0] - 2026-11-11
 
 ### Added
